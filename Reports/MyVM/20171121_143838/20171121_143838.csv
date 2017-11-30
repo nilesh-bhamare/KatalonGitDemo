@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MyVM,Firefox 52.0,,2017-11-21 14:38:40,2017-11-21 14:39:40,59.899s,FAILED
+,,,,,,
+Test Cases/TC04_MyVM_ScriptMode,Firefox 52.0,,2017-11-21 14:38:41,2017-11-21 14:39:40,59.521s,FAILED
+Statement - count = com.kms.katalon.core.testdata.TestDataFactory.findTestData(MyVMData).getRowNumbers(),Firefox 52.0,,2017-11-21 14:38:41,2017-11-21 14:38:41,0.049s,PASSED
+"Statement - For ([i = 1, i <= count, (i++)])",Firefox 52.0,,2017-11-21 14:38:41,2017-11-21 14:39:40,58.904s,FAILED

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WebService,,,2017-11-17 14:07:49,2017-11-17 14:07:50,1.336s,ERROR
+,,,,,,
+Test Cases/TC05_SOAPService_Validation,,,2017-11-17 14:07:49,2017-11-17 14:07:50,0.601s,ERROR
+,,,,,,
+Test Cases/TC06_RESTService_Validation,,,2017-11-17 14:07:50,2017-11-17 14:07:50,0.194s,ERROR

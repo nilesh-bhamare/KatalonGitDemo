@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WebService" time="33" tests="1" failures="1" errors="0">
+   <testsuite name="WebService" tests="1" failures="1" errors="0" time="33" timestamp="2017-11-17 13:11:43" hostname="B7809096 - VDK-W732CDSG083.systems.private" id="Test Suites/WebService">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\Demo\\Reports\\WebService\\20171117_131140"/>
+         <property name="logFiles" value="C:\\Katalon\\Demo\\Reports\\WebService\\20171117_131140\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="B7809096 - VDK-W732CDSG083.systems.private"/>
+         <property name="hostAddress" value="10.94.7.181"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+      </properties>
+      <testcase name="Test Cases/TC05_SOAPService_Validation" classname="Test Cases/TC05_SOAPService_Validation" status="PASSED">
+         <system-out><![CDATA[2017-11-17 13:11:43 - [TEST_CASE][PASSED] - Test Cases/TC05_SOAPService_Validation: Test Cases/TC05_SOAPService_Validation
+
+2017-11-17 13:11:44 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SOAP_Object)): Send request successfully
+
+2017-11-17 13:11:45 - [MESSAGE][PASSED] - Send request successfully
+
+2017-11-17 13:11:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2017-11-17 13:11:45 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2017-11-17 13:11:45 - [TEST_STEP][PASSED] - verifyElementsCount: Verify element count successfully
+
+2017-11-17 13:11:45 - [MESSAGE][PASSED] - Verify element count successfully
+
+2017-11-17 13:11:45 - [TEST_STEP][PASSED] - verifyElementText: Verify element text successfully
+
+2017-11-17 13:11:45 - [MESSAGE][PASSED] - Verify element text successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC06_RESTService_Validation" classname="Test Cases/TC06_RESTService_Validation" status="FAILED">
+         <failure type="FAILED" message="Unable to verify response status code (Root cause: Expected status code is '200' but actual status code is '500')"/>
+         <system-out><![CDATA[2017-11-17 13:11:45 - [TEST_CASE][FAILED] - Test Cases/TC06_RESTService_Validation: Test Cases/TC06_RESTService_Validation FAILED because (of) Unable to verify response status code (Root cause: Expected status code is '200' but actual status code is '500')
+
+2017-11-17 13:11:45 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(REST_Object)): Send request successfully
+
+2017-11-17 13:12:16 - [MESSAGE][PASSED] - Send request successfully
+
+2017-11-17 13:12:16 - [TEST_STEP][FAILED] - verifyResponseStatusCode: Unable to verify response status code (Root cause: Expected status code is '200' but actual status code is '500')
+
+2017-11-17 13:12:16 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '500'
+
+2017-11-17 13:12:16 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: Expected status code is '200' but actual status code is '500')]]></system-out>
+         <system-err><![CDATA[2017-11-17 13:11:45 - [TEST_CASE][FAILED] - Test Cases/TC06_RESTService_Validation: Test Cases/TC06_RESTService_Validation FAILED because (of) Unable to verify response status code (Root cause: Expected status code is '200' but actual status code is '500')]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-17 13:11:43 - [TEST_SUITE][FAILED] - WebService: Test Cases/TC06_RESTService_Validation FAILED because (of) Unable to verify response status code (Root cause: Expected status code is '200' but actual status code is '500')]]></system-out>
+      <system-err><![CDATA[2017-11-17 13:11:43 - [TEST_SUITE][FAILED] - WebService: Test Cases/TC06_RESTService_Validation FAILED because (of) Unable to verify response status code (Root cause: Expected status code is '200' but actual status code is '500')]]></system-err>
+   </testsuite>
+</testsuites>

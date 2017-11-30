@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WebService,,,2017-11-17 13:11:43,2017-11-17 13:12:16,33.028s,FAILED
+,,,,,,
+Test Cases/TC05_SOAPService_Validation,,,2017-11-17 13:11:43,2017-11-17 13:11:45,1.485s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SOAP_Object)),,,2017-11-17 13:11:44,2017-11-17 13:11:45,0.528s,PASSED
+verifyResponseStatusCode,,,2017-11-17 13:11:45,2017-11-17 13:11:45,0.013s,PASSED
+verifyElementsCount,,,2017-11-17 13:11:45,2017-11-17 13:11:45,0.238s,PASSED
+verifyElementText,,,2017-11-17 13:11:45,2017-11-17 13:11:45,0.061s,PASSED
+,,,,,,
+Test Cases/TC06_RESTService_Validation,,,2017-11-17 13:11:45,2017-11-17 13:12:16,30.966s,FAILED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(REST_Object)),,,2017-11-17 13:11:45,2017-11-17 13:12:16,30.772s,PASSED
+verifyResponseStatusCode,,,2017-11-17 13:12:16,2017-11-17 13:12:16,0.014s,FAILED

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WebService" time="1" tests="0" failures="0" errors="2">
+   <testsuite name="WebService" tests="0" failures="0" errors="2" time="1" timestamp="2017-11-17 14:07:49" hostname="B7809096 - VDK-W732CDSG083.systems.private" id="Test Suites/WebService">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\Demo\\Reports\\WebService\\20171117_140746"/>
+         <property name="logFiles" value="C:\\Katalon\\Demo\\Reports\\WebService\\20171117_140746\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="B7809096 - VDK-W732CDSG083.systems.private"/>
+         <property name="hostAddress" value="10.94.7.181"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+      </properties>
+      <testcase name="Test Cases/TC05_SOAPService_Validation" classname="Test Cases/TC05_SOAPService_Validation" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC05_SOAPService_Validation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Katalon/Demo/Scripts/TC05_SOAPService_Validation/Script1510901737745.groovy: 20: unable to resolve class internal.GlobalVariable
+ @ line 20, column 1.
+   import internal.GlobalVariable as GlobalVariable
+   ^
+
+1 error
+"/>
+         <system-out><![CDATA[2017-11-17 14:07:49 - [TEST_CASE][ERROR] - Test Cases/TC05_SOAPService_Validation: Test Cases/TC05_SOAPService_Validation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Katalon/Demo/Scripts/TC05_SOAPService_Validation/Script1510901737745.groovy: 20: unable to resolve class internal.GlobalVariable
+ @ line 20, column 1.
+   import internal.GlobalVariable as GlobalVariable
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2017-11-17 14:07:49 - [TEST_CASE][ERROR] - Test Cases/TC05_SOAPService_Validation: Test Cases/TC05_SOAPService_Validation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Katalon/Demo/Scripts/TC05_SOAPService_Validation/Script1510901737745.groovy: 20: unable to resolve class internal.GlobalVariable
+ @ line 20, column 1.
+   import internal.GlobalVariable as GlobalVariable
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC06_RESTService_Validation" classname="Test Cases/TC06_RESTService_Validation" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC06_RESTService_Validation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Katalon/Demo/Scripts/TC06_RESTService_Validation/Script1510901740164.groovy: 20: unable to resolve class internal.GlobalVariable
+ @ line 20, column 1.
+   import internal.GlobalVariable as GlobalVariable
+   ^
+
+1 error
+"/>
+         <system-out><![CDATA[2017-11-17 14:07:50 - [TEST_CASE][ERROR] - Test Cases/TC06_RESTService_Validation: Test Cases/TC06_RESTService_Validation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Katalon/Demo/Scripts/TC06_RESTService_Validation/Script1510901740164.groovy: 20: unable to resolve class internal.GlobalVariable
+ @ line 20, column 1.
+   import internal.GlobalVariable as GlobalVariable
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2017-11-17 14:07:50 - [TEST_CASE][ERROR] - Test Cases/TC06_RESTService_Validation: Test Cases/TC06_RESTService_Validation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Katalon/Demo/Scripts/TC06_RESTService_Validation/Script1510901740164.groovy: 20: unable to resolve class internal.GlobalVariable
+ @ line 20, column 1.
+   import internal.GlobalVariable as GlobalVariable
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-17 14:07:49 - [TEST_SUITE][ERROR] - WebService: Test Cases/TC05_SOAPService_Validation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Katalon/Demo/Scripts/TC05_SOAPService_Validation/Script1510901737745.groovy: 20: unable to resolve class internal.GlobalVariable
+ @ line 20, column 1.
+   import internal.GlobalVariable as GlobalVariable
+   ^
+
+1 error]]></system-out>
+      <system-err><![CDATA[2017-11-17 14:07:49 - [TEST_SUITE][ERROR] - WebService: Test Cases/TC05_SOAPService_Validation FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Katalon/Demo/Scripts/TC05_SOAPService_Validation/Script1510901737745.groovy: 20: unable to resolve class internal.GlobalVariable
+ @ line 20, column 1.
+   import internal.GlobalVariable as GlobalVariable
+   ^
+
+1 error]]></system-err>
+   </testsuite>
+</testsuites>
