@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SearchInput</name>
+   <name>Link_SimpleFormDemo</name>
    <tag></tag>
-   <elementGuidId>aad742b0-e4dc-486e-adc8-9b63b48bf30f</elementGuidId>
+   <elementGuidId>f9d9511b-122a-4dc8-b33a-ec5354c7fdcf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id='lst-ib']</value>
+         <value>//*[@id=&quot;treemenu&quot;]/li/ul/li[1]/ul/li[1]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,6 +24,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>xpath1509443022771</value>
+      <value>xpath1512034842148</value>
    </webElementProperties>
 </WebElementEntity>

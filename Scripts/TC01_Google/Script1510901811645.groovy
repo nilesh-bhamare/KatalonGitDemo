@@ -22,11 +22,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('http://google.com')
 
-WebUI.setText(findTestObject('Google/SearchInput'), 'Virgin Media')
+WebUI.setText(findTestObject('null'), 'Virgin Media')
 
-WebUI.waitForElementVisible(findTestObject('Google/SearchButton'), 60)
+WebUI.waitForElementVisible(findTestObject('null'), 60)
 
-WebUI.click(findTestObject('Google/SearchButton'))
+WebUI.click(findTestObject('null'))
 
 WebUI.waitForPageLoad(60)
 

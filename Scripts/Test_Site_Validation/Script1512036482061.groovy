@@ -20,15 +20,40 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('http://google.com')
+int count = findTestData('TestData').getRowNumbers()
 
-WebUI.setText(findTestObject('Google/SearchInput'), 'Virgin Media')
-
-WebUI.waitForElementVisible(findTestObject('Google/SearchButton'), 60)
-
-WebUI.click(findTestObject('Google/SearchButton'))
-
-WebUI.waitForPageLoad(60)
-
-WebUI.verifyTextPresent('www.virginmedia.com/‎', false)
+for (int i = 1; i <= count; i++) {
+	
+	try {
+	
+	    WebUI.openBrowser('http://www.seleniumeasy.com/test/')
+	
+	    WebUI.maximizeWindow()
+	
+	    WebUI.waitForPageLoad(60)
+	
+	    WebUI.click(findTestObject('TestSite/HomePage/Link_InputForms'), FailureHandling.STOP_ON_FAILURE)
+	
+	    WebUI.waitForElementVisible(findTestObject('TestSite/HomePage/Link_SimpleFormDemo'), 60)
+	
+	    WebUI.click(findTestObject('TestSite/HomePage/Link_SimpleFormDemo'))
+	
+	    WebUI.waitForElementVisible(findTestObject('TestSite/HomePage/Input_EnterMessage'), 60)
+	
+	    WebUI.sendKeys(findTestObject('TestSite/HomePage/Input_EnterMessage'), findTestData('TestData').getValue(1, i))
+	
+	    WebUI.click(findTestObject('TestSite/HomePage/Button_ShowMessage'))
+	
+	    WebUI.delay(2)
+	
+	    WebUI.verifyElementText(findTestObject('TestSite/HomePage/Text_YourMessage'), findTestData('TestData').getValue(2, i))
+	
+	    WebUI.closeBrowser()
+	
+	} catch (Exception e) {
+	
+		WebUI.closeBrowser()
+		e.printStackTrace()
+	}
+}
 

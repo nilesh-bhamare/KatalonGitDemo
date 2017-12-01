@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Google</name>
+   <name>Test_Site_Validation</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d3178e0e-e281-4047-9cf2-2dce90015eb3</testCaseGuid>
